@@ -18,6 +18,9 @@ if(n<0)
   Collections.reverse(list);
   System.out.print('-');
 }
+if((n+"").length()<k)
+System.out.println(n);
+else
 for(i=0;i<list.size()-k;i++)
 System.out.print(list.get(i));
 }
