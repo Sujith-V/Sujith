@@ -8,11 +8,11 @@ class longest_prefix
     int count=0,max=-1;
     for(int i=0;i<str.length-1;i++)
     {
-      for(int j=0;j<str.length;j++)
+      for(int j=i+1;j<str.length;j++)
       {
         count=0;
         for(int k=0;k<str[i].length()&&k<str[j].length();k++)
-          if(str[i].charAt(k)==str[k].charAt(k))
+          if(str[i].charAt(k)==str[j].charAt(k))
             count++;
           else
             break;
@@ -23,7 +23,9 @@ class longest_prefix
         }
       }
     }
+    if(s=="")
+    System.out.println(null);
+    else
     System.out.println(s);
   }
-}
 }
