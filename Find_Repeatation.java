@@ -16,6 +16,11 @@ if(!set.add(x))
 if(!list.contains(x))
 list.add(x);
 }
+if(list.size()==0)
+{
+  System.out.println("No repeated numbers found");
+  return 0;
+}
 for(int i:list)
 System.out.println(i);
 }
