@@ -13,6 +13,7 @@ for(int i=0;i<n;i++)
 {
 int x=sc.nextInt();
 if(!set.add(x))
+if(!list.contains(x))
 list.add(x);
 }
 for(int i:list)
