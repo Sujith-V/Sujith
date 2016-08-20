@@ -13,6 +13,11 @@ class Array_Subset
     n=sc.nextInt();
     for(int i=0;i<n;i++)
     list2.add(sc.nextInt());
+    if(list1.size()==0 || list2.size()==0)
+    {
+      System.out.println("Input data is insufficient");
+      return;
+    }
     System.out.println(list1.containsAll(list2));
   }
 }
