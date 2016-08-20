@@ -10,7 +10,7 @@ class Reverse_Order_Of_String
   }
   public static void main(String args[])
   {
-    String s=new Scanner(System.in).nextLine();
+    String s=new Scanner(System.in).nextLine().trim();
     if(s.isEmpty())
     {
       System.out.println("Input String is Empty");
