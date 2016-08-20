@@ -10,6 +10,13 @@ class Reverse_Order_Of_String
   }
   public static void main(String args[])
   {
-    System.out.println(Reverse_Order(new Scanner(System.in).nextLine().split(" ")));
+    String s=new Scanner(System.in).nextLine();
+    if(s.isEmpty())
+    {
+      System.out.println("Input String is Empty");
+      return;
+    }
+    String str[]=s.split(" ");
+    System.out.println(Reverse_Order(s));
   }
 }
