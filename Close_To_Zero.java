@@ -4,7 +4,13 @@ class Close_To_Zero
   public static void main(String args[])
   {
     Scanner sc=new Scanner(System.in);
-    int x=0,y=0,n=sc.nextInt(),arr[]=new int[n];
+    int x=0,y=0,n=sc.nextInt();
+    if(n==0)
+    {
+      System.out.println("Input list is empty");
+      return;
+    }
+    int arr[]=new int[n];
     for(int i=0;i<n;i++)
     arr[i]=sc.nextInt();
     Arrays.sort(arr);
