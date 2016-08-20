@@ -4,7 +4,7 @@ import java.util.Scanner;
 class First_Repeated_Number
 {
   Scanner sc=new Scanner(System.in);
-  int x,n=sc.nextInt();
+  int x=0,n=sc.nextInt();
   LinkedHashSet<Integer> set=new LinkedHashSet<Integer>();
   for(int i=0;i<n;i++)
   {
