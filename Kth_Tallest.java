@@ -10,7 +10,7 @@ class Kth_Tallest
     int k=sc.nextInt();
     if(k>50)
     {
-      System.out.println("There is "+k+" Students in given list");
+      System.out.println("There is no "+k+"th Student in given list");
       return;
     }
     System.out.println("4th Tallest : "+arr[arr.length-4]+"\n"+k+"th Tallest : "+arr[arr.length-k]);
