@@ -17,6 +17,6 @@ class Reverse_Order_Of_String
       return;
     }
     String str[]=s.split(" ");
-    System.out.println(Reverse_Order(s));
+    System.out.println(Reverse_Order(str));
   }
 }
