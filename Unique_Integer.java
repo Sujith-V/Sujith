@@ -15,6 +15,11 @@ if(!set.add(x))
 set.remove(x);
 }
 Iterator itr=set.iterator();
+if(set.size()==0)
+{
+  System.out.println("No numbers were found");
+  return;
+}
 System.out.println(itr.next());
 }
 }
