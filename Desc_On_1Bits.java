@@ -29,7 +29,7 @@ class Desc_On_1Bits.java
         }
         else if(counts.get(j)==max)
         {
-          if(nums.get(j)>max)
+          if(nums.get(j)>max_num)
           {
             max_num=nums.get(j);
             index=j;
