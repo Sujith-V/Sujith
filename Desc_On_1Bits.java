@@ -8,9 +8,9 @@ class Desc_On_1Bits.java
     int n=sc.nextInt();
     for(int i=0;i<n;i++)
     {
-      int x=sc.nextInt();
-      String s=Integer.tobinaryString(x);
-      for(int j=0;j<s.length(0);j++)
+      int x=sc.nextInt(),count=0;
+      String s=Integer.toBinaryString(x);
+      for(int j=0;j<s.length();j++)
       if(s.charAt(j)=='1')
       count++;
       nums.add(x);counts.add(count);
@@ -19,7 +19,7 @@ class Desc_On_1Bits.java
     for(int i=0;i<len;i++)
     {
       int max=-1,max_num=nums.get(0),index=-1;
-      for(int j=0;j<counts.aixe();j++)
+      for(int j=0;j<counts.size();j++)
       {
         if(counts.get(j)>max)
         {
