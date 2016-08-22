@@ -6,6 +6,11 @@ class Desc_On_1Bits.java
     Scanner sc=new Scanner(System.in);
     ArrayList<Integer> nums=new ArrayList<Integer>(),counts=new ArrayList<Integer>();
     int n=sc.nextInt();
+    if(n===0)
+    {
+      System.out.println("No numbers found to sort");
+      return;
+    }
     for(int i=0;i<n;i++)
     {
       int x=sc.nextInt(),count=0;
