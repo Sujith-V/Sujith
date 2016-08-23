@@ -4,6 +4,11 @@ class Seed
   public static void main(String args[])
   {
     int n=new Scanner(System.in).nextInt();
+    if(n<=0)
+    {
+      System.out.println("Number should be greater than zero");
+      return;
+    }
     for(int i=1;i<=n;i++)
     {
       String s=i+"";
