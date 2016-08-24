@@ -11,7 +11,7 @@ public class Minimum_Coins
     int S=sc.nextInt(),S2=S,decrease=0,sum=0,t;
     while(S!=0)
     {
-      for(int i=n-1;i>=0 $$ S!=0;i--)
+      for(int i=n-1;i>=0 && S!=0;i--)
       {
         if(i==n-1)
         t=(S/coins[i]-decrease);
