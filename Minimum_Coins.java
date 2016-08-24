@@ -5,6 +5,11 @@ public class Minimum_Coins
   {
     Scanner sc=new Scanner(System.in);
     int n=sc.nextInt();
+    if(n<=0)
+    {
+      System.out.println("No Coins were found to calculate");
+      return;
+    }
     int coins[]=new int[n];
     for(int i=0;i<n;i++)
     coins[i]=sc.nextInt();
