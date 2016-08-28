@@ -20,12 +20,12 @@ public class Set_Zeros
       if(arr2[j][i]==0)
       for(int k=0;k<n;k++)
       arr2[k][i]=0;
-      for(int i=0;i<n;i++)
-      {
-        for(int j=0;j<n;j++)
-        System.out.print(arr[i][j]*arr2[i][j]+" ");
-        System.out.print("\n");
-      }
+    }
+    for(int i=0;i<n;i++)
+    {
+      for(int j=0;j<n;j++)
+      System.out.print(arr[i][j]*arr2[i][j]+" ");
+      System.out.print("\n");
     }
   }
 }
