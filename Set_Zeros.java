@@ -4,7 +4,13 @@ public class Set_Zeros
   public static void main(String args[])
   {
     Scanner sc=new Scanner(System.in);
-    int n=sc.nextInt(),arr[][]=new int[n][n],arr2[][]=new int[n][n];
+    int n=sc.nextInt();
+    if(n<=0)
+    {
+      System.out.println("No matrix is created");
+      return;
+    }
+    int arr[][]=new int[n][n],arr2[][]=new int[n][n];
     for(int i=0;i<n;i++)
     for(int j=0;j<n;j++)
     {
