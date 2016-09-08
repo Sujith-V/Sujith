@@ -60,7 +60,7 @@ function calculate()
 ?>
 <html>
 <head>
-<title>Love Calculator</title>
+<title>Flames</title>
 <script type="text/javascript">
 function check()
 {
@@ -93,7 +93,7 @@ function check()
 	<tr>
 		<td></td>
 		<td align="left">
-			<input type="submit" value="Calulate"/>
+			<input type="submit" value="Find"/>
 			<input type="reset" value="Reset"/>
 		</td>
 	</tr>
